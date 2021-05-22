@@ -1,4 +1,5 @@
-
+源码来自https://github.com/EvenGui/flink-parcel-master
+本人替换换了部分源改为国内的源，修改小部分代码，方便编译。
 
 # 集成目的
 
