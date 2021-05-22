@@ -24,7 +24,7 @@ flink_csd_build_folder="flink_csd_build"
 
 function build_cm_ext {  #Checkout if dir does not exist
   if [ ! -d cm_ext ]; then
-    git clone https://github.com/cloudera/cm_ext.git
+    git clone https://gitee.com/abram-guo/cm_ext.git
   fi
   if [ ! -f cm_ext/validator/target/validator.jar ]; then
     cd cm_ext
