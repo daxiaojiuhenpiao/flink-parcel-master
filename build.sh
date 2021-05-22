@@ -35,7 +35,7 @@ function build_cm_ext {  #Checkout if dir does not exist
 
 function get_flink {
   if [ ! -f "$flink_archive" ]; then
-    cp -rf $FLINK_URL $PWD
+    wget $FLINK_URL
   fi
   if [ ! -d "$flink_unzip_foleder" ]; then
     tar -xvf $flink_archive
