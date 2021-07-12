@@ -7,4 +7,5 @@
 - 集成Gateway（快捷命令，Flink配置分发）
 - 集成Hive相关配置至CDH Flink
 - 兼容Flink1.10 Flink1.11版本至CDH
+- 编译安装参考博客[https://www.cnblogs.com/abramgyb/p/14800347.html]
 - 更多请参考博客[https://blog.csdn.net/guiyifei/article/details/109325980]
