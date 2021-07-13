@@ -1,6 +1,15 @@
 源码来自https://github.com/EvenGui/flink-parcel-master
 本人替换换了部分源改为国内的源，修改小部分代码，方便编译。
 
+#进入项目目录
+cd flink-parcel-master
+
+#编译parcel包
+./build.sh parcel
+
+#编译parcel包
+./build.sh csd
+
 # 集成目的
 
 - 集成Flink HistoryServer至CDH（在CDH上运行的Flink程序，在程序结束后的任务均会显示在该角色实例的WebUI上）
